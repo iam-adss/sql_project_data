@@ -32,3 +32,7 @@ ORDER BY
 LIMIT 15
     ;
 
+
+SELECT skill_id,
+    skills
+FROM skills_dim;
