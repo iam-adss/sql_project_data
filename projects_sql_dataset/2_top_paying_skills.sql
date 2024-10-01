@@ -40,6 +40,7 @@ WITH top_paying_jobs AS (
 
     ORDER BY
     Salary DESC
+    
     ;
 
 
