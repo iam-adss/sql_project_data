@@ -1,5 +1,5 @@
 /* 
-Question: What are the top paying Data Analyst jobs? 
+Question: What are the top 15 paying Data Scientist jobs? 
 - No Null values to focus on postings where salaries are available 
 - Identify the top 15 paying jobs that are remote
 - Why? to offer insights as a Data analyst
@@ -18,11 +18,11 @@ SELECT
 FROM
     job_postings_fact
 
-INNER JOIN 
+LEFT JOIN 
     company_dim ON job_postings_fact.company_id = company_dim.company_id
 
 WHERE
-    job_title_short = 'Data Analyst' AND
+    job_title_short = 'Data Scientist' AND
     salary_year_avg IS NOT NULL AND 
     job_location = 'Anywhere'
 
@@ -32,4 +32,3 @@ ORDER BY
 LIMIT 15
     ;
 
-    select * FROM company_dim
