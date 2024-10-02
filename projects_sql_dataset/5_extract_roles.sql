@@ -22,5 +22,3 @@ salary_year_avg IS NOT NULL
 LIMIT 10
 ;
 
-SELECT * FROM job_postings_fact
-LIMIT 10;
