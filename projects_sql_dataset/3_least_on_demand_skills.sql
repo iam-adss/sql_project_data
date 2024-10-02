@@ -1,12 +1,13 @@
-/* In demand skills that are most frequently looked for in job postings 
+/* Least In demand skills that are most frequently looked for in job postings 
 
 - Join job postings to inner join table similar to query 2
-- Identify the top 5 in-demand skills for a data analyst.
+- Identify the top 10 least in-demand skills.
 - Focus on all job postings.
-- Why? Retrieves the top 5 skills with the highest demand in the job market, 
-    providing insights into the most valuable skills for job seekers.
+- Why? Retrieves the top 15 skills with the lowest demand in the job market, 
+    providing insights into the least valuable skills for job seekers.
 
 */
+
 SELECT
   skills_dim.skills,
   COUNT(skills_job_dim.job_id) AS demand_count
@@ -19,14 +20,13 @@ FROM
   INNER JOIN
     skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 
-WHERE
 
-  job_postings_fact.job_title_short = 'Data Analyst'
 	
 GROUP BY
   skills_dim.skills
-ORDER BY
-  demand_count DESC
-LIMIT 5;
+
+  ORDER BY
+  demand_count
+LIMIT 10;
 
 

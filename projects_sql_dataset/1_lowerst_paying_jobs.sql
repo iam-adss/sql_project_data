@@ -3,7 +3,7 @@ Here we have a list of top 10 lowest paying Data Analyst jobs per country
 
 1. Identify the country that offers data analyst roles
 
-2. Then obtain the average by using salry_year_avg
+2. Then obtain the average by using salary_year_avg
 
 3. LIMIT 10 rows of data 
 
