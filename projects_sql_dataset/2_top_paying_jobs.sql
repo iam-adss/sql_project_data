@@ -1,7 +1,7 @@
 /* 
-Question: What are the top 15 paying Data Scientist jobs? 
+Question: What are the top 10 paying Data Scientist jobs? 
 - No Null values to focus on postings where salaries are available 
-- Identify the top 15 paying jobs that are remote
+- Identify the top 10 paying jobs that are remote
 - Why? to offer insights as a Data analyst 
 */
 
@@ -29,5 +29,5 @@ WHERE
 ORDER BY
     Salary DESC
 
-LIMIT 15
+LIMIT 10
     ;

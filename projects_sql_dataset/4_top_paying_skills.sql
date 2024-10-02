@@ -1,7 +1,7 @@
 /* In this instance I will show the top 10 skills required for top paying Data Scientist roles
 Question:
 
-1.What skills are required for the top paying Data Scientist jobs from first query?
+1.What skills are required for the top paying Data Scientist jobs ?
 2. Add specific skills required for these roles
 3. Why? - To provide a detailed look at which high paying jobs demand certain skills,
 and to help job seekers understand which skills to develop that align with top salary*/
@@ -28,7 +28,7 @@ WITH top_paying_jobs AS (
     ORDER BY
         Salary DESC
 
-    LIMIT 15
+    LIMIT 10
     )
 
     SELECT top_paying_jobs.*,
