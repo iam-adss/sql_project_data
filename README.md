@@ -64,7 +64,7 @@ SELECT
 ```
 
 
-![Top 10 Lowest Paying Data Analyst Roles Per Country](images\top_10_lowest_paying.png)
+![Top 10 Lowest Paying Country](images\top_10_lowest_paying.png)
 
 
 *This bar graph shows the 'Top 10 Lowest Paying Data Analyst Roles Per Country' where the lowest seems to be Algeria with a value of $44100 and China with the highest of $68590*
