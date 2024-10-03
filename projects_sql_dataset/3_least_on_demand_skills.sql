@@ -3,7 +3,7 @@
 - Join job postings to inner join table similar to query 2
 - Identify the top 10 least in-demand skills.
 - Focus on all job postings.
-- Why? Retrieves the top 15 skills with the lowest demand in the job market, 
+- Why? Retrieves the top 10 skills with the lowest demand in the job market, 
     providing insights into the least valuable skills for job seekers.
 
 */
