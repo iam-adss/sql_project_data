@@ -65,10 +65,15 @@ SELECT
 
 
 ![Top 10 Lowest Paying Data Analyst Roles Per Country](images\top_10_lowest_paying.png)
+
+
 *This bar graph shows the 'Top 10 Lowest Paying Data Analyst Roles Per Country' where the lowest seems to be Algeria with a value of $44100 and China with the highest of $68590*
 
 ![Map Graph ](images\salary_by_country_map_chart.png)
 *A map graph visualization of the same data pull from above*
+
+
+
 
 ### 2. Top Highest Paying Companies For Data Scientist Jobs 
 In this instance I identified the highest paying roles for Data Scientist roles along with the companies that are posting them this would help job seekers identify the roles and companies that are seeking for new hires. 
@@ -108,9 +113,13 @@ ORDER BY
 
 LIMIT 10
     ;
+
 ```
 
 ![Highest Paying Companies](images\highest_paying_companies.png)
+
+
+
 *Here we have an example of an Area Chart to explain the highest salary thats being paid out for Data Scientist roles by companies. We have Selby Jennings offering $550,000 and Walmart with lowest of $300,000*
 
 ### 3. Least On Demand Skill 
@@ -150,7 +159,11 @@ LIMIT 10;
 
 ### Least Demanded Skills
 
+
+
 ![Least Demanded Skills](images\least_demand.PNG)
+
+
 
 *Here is the list of the least wanted skills by according to this Data. I could only obtain the skill list by joining all 3 tables together with INNER JOIN. Then the identifying part was simple by conducting an ORDER BY of the demand count. Lowest would be the count of 1 and highest in the list is 3*
 
@@ -196,7 +209,11 @@ WITH top_paying_jobs AS (
     
     ;
 ```
+
+
 ![Highest Paying Skill Per Company](images\skill_highest_pay.png)
+
+
 
 *The most sought out skill for Data Scientist seems to be SQL and Python and there are only 2 companies that are willing to pay top dollar for those skills Selby Jennings and Algo Capital Group*
 
@@ -228,7 +245,11 @@ LIMIT 10
 ;
 ```
 
+
 ![Data Scientist Roles postings within the year](images\philippines_job_postings.PNG)
+
+
+
 
 *As shown above only 3 postings occured within the year its 2 in November 2023 and 1 in January 2023** 
 
