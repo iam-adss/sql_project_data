@@ -64,13 +64,13 @@ SELECT
 ```
 
 
-![Top 10 Lowest Paying Country](images\top_10_lowest_paying.png)
+![Top 10 Lowest Paying Country](/images/1_top_10_lowest_paying.png)
 
 
 *This bar graph shows the 'Top 10 Lowest Paying Data Analyst Roles Per Country' where the lowest seems to be Algeria with a value of $44100 and China with the highest of $68590*
 
-![Map Graph ](images\salary_by_country_map_chart.png)
-*A map graph visualization of the same data pull from above*
+![Map Graph ](/images/salary_by_country_map_chart.png)
+*A map graph visualization of the same data pull from above.*
 
 
 
@@ -83,7 +83,8 @@ In this instance I identified the highest paying roles for Data Scientist roles 
 2. To narrow the search I strictly excluded NULL values from the query
 
 3. Conduct a LEFT JOIN to the company_dim table as it consist the list of the companies. This is doable with the job postings table as they have a relation with company_id
-4. Identify the salary average 
+
+4. Identify the salary average range
 
 
 ```sql
@@ -116,7 +117,7 @@ LIMIT 10
 
 ```
 
-![Highest Paying Companies](images\highest_paying_companies.png)
+![Highest Paying Companies](/images/highest_paying_companies.png)
 
 
 
@@ -127,7 +128,8 @@ In this question I will identify the least demanded skill or the least wanted sk
 
 1.Identify the top 10 least in-demand skills.
 
-2.Focus on all job postings.
+2.Focus on all job postings
+
 
 3.Why? Retrieves the top 10 skills with the lowest demand in the job market,  providing insights into the least valuable skills for job seekers.
 
