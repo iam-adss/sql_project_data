@@ -163,7 +163,7 @@ LIMIT 10;
 
 
 
-![Least Demanded Skills](images\least_demand.PNG)
+![Least Demanded Skills](/images/least_demand.PNG)
 
 
 
@@ -213,7 +213,7 @@ WITH top_paying_jobs AS (
 ```
 
 
-![Highest Paying Skill Per Company](images\skill_highest_pay.png)
+![Highest Paying Skill Per Company](/images/skill_highest_pay.png)
 
 
 
@@ -248,7 +248,7 @@ LIMIT 10
 ```
 
 
-![Data Scientist Roles postings within the year](images\philippines_job_postings.PNG)
+![Data Scientist Roles postings within the year](/images/philippines_job_postings.PNG)
 
 
 
@@ -286,4 +286,4 @@ This project has been very amazing and fun I never had this much fun into resear
 
 Amazing insight 
 
-Thank you for following my README
+Thank you for following my README.
