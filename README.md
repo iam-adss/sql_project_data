@@ -2,7 +2,7 @@
 💡 Dive into this repository  where I showcase the current job market and my specific findings from the dataset provided which details the current job market. In the following query I will provide my findings along a the visualization
 
 🔎 For the SQL queries check them out here 
-- [project_sql_dataset folder](/projects_sql_dataset/)
+- [Project SQL Dataset](/projects_sql_dataset/)
 
 ## Background
 Driven by a quest to navigate the data analyst job market more effectively, this project was born from a desire to pinpoint top-paid, in-demand skills and some of the lowest paying jobs, streamlining others work to find optimal jobs.
